@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/gnf1dwc.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Brush-Script-Std;
+    font-family: Myriad-Pro;
+}
+
+body{
+    /* background-color: bisque; */
+    background: linear-gradient(beige, bisque);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    border-bottom: 5px solid white;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    border-top: 5px solid white;
+    height: 50px;
+    width: 100%;
+    bottom: 0;;
+    background-color: red;
+}
+
+form{
+    margin: 10px 0;
+}
+
+.button-size{
+    padding: 3px 5px;
+    margin-left: 5px;
+}
+
+#top, #bottom{
+    background-color: red;
+}
+
+#wrapper{
+    width: 675px;
+    height: 455px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-tag{
+    width: 664px;
+    height: 441px;
+    background-color: white;
+}
+
+#top{
+    border-radius: 29px 29px 0 0;
+    text-align: center;
+    color: white;
+    width: 664px;
+    height: 190px;
+}
+
+#middle{
+    width: 664px;
+    height: 193px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+    width: 664px;
+    height: 58px;
+    border-radius: 0 0 29px 29px;
+}
+
+#hello{
+    line-height: 92px;
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+#name-is{
+    font-size: 60px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#user-name{
+    font-family: Brush-Script-Std;
+    font-size: 60px;
+}
