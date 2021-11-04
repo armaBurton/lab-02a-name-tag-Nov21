@@ -45,7 +45,11 @@ footer{
 }
 
 form{
-    margin: 10px 0;
+    margin: 0 0 10px 0;
+}
+
+span{
+    margin-bottom: 10px;
 }
 
 .button-size{
@@ -116,4 +120,14 @@ form{
 #user-name{
     font-family: Brush-Script-Std;
     font-size: 60px;
+}
+
+aside{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#name-count{
+    font-weight: 700;
+    text-decoration: underline;
 }

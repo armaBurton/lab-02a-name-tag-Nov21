@@ -12,9 +12,21 @@
     <header class="bkgnd-color" id="head"></header>
     <section>
         <span>
-            <input type="text" placeholder="enter name" id="name-input">
+            <input type="text" placeholder="enter name" id="name-input" onclick="this.select();">
             <input type="button" value="Change Name" id="name-button" class="button-size">
         </span>
+        <form action="#">
+            <label for="fonts">Font Picker</label>
+            <select name="fonts" id="fonts">
+                <option value="Brush-Script-Std">Brush Script</option>
+                <option value="monospace">Monospace</option>
+                <option value="sans-serif">Sans Serif</option>
+                <option value="serif">Serif</option>
+                <option value="cursive">Cursive</option>
+                <option value="fantasy">Fantasy</option>
+                <input type="button" name="font" id="font-button" class="button-size" value="Change Font">
+            </select>
+        </form>
         <form action="#">
             <label for="colors">Color Picker</label>
             <select name="colors" id="colors">
@@ -51,6 +63,9 @@
                 </div>
             </div>
         </main>
+        <aside>
+            <div>You have changed your name <span id="name-count"></span> times.</div>
+        </aside>
     </section>
     <footer class="bkgnd-color" id="foot"></footer>
 </body>
